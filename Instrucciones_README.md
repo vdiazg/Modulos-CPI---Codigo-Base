@@ -23,5 +23,7 @@ COMANDOS QUE DEBERIAN APRENDER:
 
 SOLO DEBEN APRENDER COMO CLONAR EL PROYECTO A SU COMPUTADOR. 
 PORQUE NO TENDRAN PERMISO, SALVO LOS DE CAMBIOS, DE HACER UN PUSH A REPO.
-
+--------------------------------------------------------------------
+SOLO EL JEFE CAMBIO ES EL QUE ENVIA LA SOLUCIÓN O EL PARCHE. INDEPENDIENTE QUE TODOS TRABAJEN PROGRAMANDO.
+--------------------------------------------------------------------
 Mi Correo: victordiazgaldames@gmail.com
