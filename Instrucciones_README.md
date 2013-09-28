@@ -1,3 +1,11 @@
+ANTES DE EMPEZAR A LEER ESTO Y CLONAR COMO LOCOS EL PROYECTOS, DEBEN ENTENDER            
+CUAL ES LA ARQUITECTURA QUE SE ESTA TRABAJANDO Y ES " MVC ". 
+POR LO TANTO LE PIDO QUE VEAN LOS VIDEOS 1, 2, 3 DE ESTE FRAMEWORK, "YII", 
+PARA QUE PUEDAN COMPRENDER DE QUE ESTAMOS HABLANDO. DEJO LINK SIGUIENTE LÍNEA.
+
+LINK: http://codigofacilito.com/cursos/Yii
+--------------------------------------------------------------------
+
 GIT - Guia Rapida Comandos
 
 http://www.edy.es/dev/docs/git-guia-rapida/
