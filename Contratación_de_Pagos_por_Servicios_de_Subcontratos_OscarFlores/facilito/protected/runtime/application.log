@@ -1,0 +1,509 @@
+2013/09/28 22:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "subcontratos".' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(270): CController->missingAction('subcontratos')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('subcontratos')
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/subcontrat...')
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/subcontratos
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php
+---
+2013/09/28 22:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:43:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:45:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 22:46:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:24:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:24:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "subcontratos".' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(270): CController->missingAction('subcontratos')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('subcontratos')
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/subcontrat...')
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/subcontratos
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+---
+2013/09/28 23:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contratos".' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(270): CController->missingAction('contratos')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('contratos')
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contratos')
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/contratos
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/subcontratos
+---
+2013/09/28 23:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contacto".' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(270): CController->missingAction('contacto')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('contacto')
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contacto')
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/contacto
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/contratos
+---
+2013/09/28 23:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
+2013/09/28 23:28:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+---
+2013/09/28 23:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+---
+2013/09/28 23:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "listar" was not found.' in /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('listar')
+#1 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/Modulos_CPI/Contratación_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/page&view=listar
+HTTP_REFERER=http://localhost/Modulos_CPI/Contrataci%C3%B3n_de_Pagos_por_Servicios_de_Subcontratos_OscarFlores/facilito/index.php?r=site/index
+---
