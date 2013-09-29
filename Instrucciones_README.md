@@ -14,12 +14,12 @@ GIT - Paso a Paso para iniciarse en Git
 
 http://gitimmersion.com/lab_01.html
 --------------------------------------------------------------------
-1.- http://www.programacion.com.py/web/php/manual-basico-de-yii
-2.- http://www.aprendeprogramar.com/como-instalar-framework-yii-en-linux-ubuntu/
-3.- http://venatutas.wordpress.com/2011/04/13/como-instalar-framework-yii-en-debian/
-4.- http://gabrielduarte77.wordpress.com/category/yii-framework/page/2/
-5.- http://www.youtube.com/playlist?list=PL339A6D065EFAF1D1
-6.- http://php-estudios.blogspot.com/2012/08/tutoriales-y-documentacion-de-yii.html
+1. http://www.programacion.com.py/web/php/manual-basico-de-yii
+2. http://www.aprendeprogramar.com/como-instalar-framework-yii-en-linux-ubuntu/
+3. http://venatutas.wordpress.com/2011/04/13/como-instalar-framework-yii-en-debian/
+4. http://gabrielduarte77.wordpress.com/category/yii-framework/page/2/
+5. http://www.youtube.com/playlist?list=PL339A6D065EFAF1D1
+6. http://php-estudios.blogspot.com/2012/08/tutoriales-y-documentacion-de-yii.html
 y adjunto una guia en pdf en español.
 --------------------------------------------------------------------
 COMANDOS QUE DEBERIAN APRENDER:
